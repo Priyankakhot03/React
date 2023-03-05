@@ -1,0 +1,81 @@
+.main_div{
+    margin-top: 40px;
+    display: flex;
+}
+.im{
+    margin-top: 30px;
+    width: 120px;
+    height: 100px;
+}
+.list_a{
+    margin-top: 60px;
+    font-size: 21px;
+    justify-content: space-between;
+    margin-left: 40px;
+
+}
+.list_a:hover{
+    border: 1px solid rgb(21, 75, 21);
+    color: white;
+    border-width: 10px;
+    background-color: rgb(21, 75, 21);
+    color: white;;
+    
+
+}
+.bu1{
+    height: 40px;
+    width: 70px;
+    margin-top: 70px;
+    margin-left: 400px;
+    color: white;
+    background-color: rgb(17, 16, 16);
+    border: 1PX solid black;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.bu1:hover{
+    background-color: rgb(48, 45, 45);
+}
+.bu2{
+    height: 60px;
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: black;
+   background-color: rgb(248, 150, 166);
+    border: 1PX solid white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.bu2:hover{
+    background-color: rgb(241, 75, 102);
+}
+.bu3{
+    height: 60px;
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: black;
+    background-color: rgb(247, 247, 135);
+    border: 1PX solid white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.bu3:hover{
+    background-color: rgb(249, 249, 80);
+}
+.bu4{
+    height: 60px;
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: black;
+    background-color:rgb(39, 103, 39);
+    border: 1PX solid white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.bu4:hover{
+    background-color: rgb(3, 33, 3);
+}
