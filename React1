@@ -1,0 +1,102 @@
+import React from 'react';
+import { Component } from 'react';
+import STYLE from "./app.module.css"
+export default class App extends Component
+{
+    constructor(){
+        super()
+        this.state={
+            count:0
+
+        }
+    }
+    handleIncrement=()=>{
+        this.setState({count:this.state.count+1})
+    }
+    handleDecrement=()=>{
+        this.setState({count:this.state.count-1})
+    }
+    handleReset=()=>{
+        this.setState({count:0})
+    }
+
+        render(){
+            return(
+                <div className={STYLE.main}>
+                    <h1>{this.state.count}</h1>
+                    <div className={STYLE.child}>
+                    <button onClick={this.handleIncrement} className={STYLE.b1}>Increment</button>
+                    <button onClick={this.handleDecrement} className={STYLE.b2}>Decrement</button>
+                    <button onClick={this.handleReset} className={STYLE.b3}>Reset</button>
+                    </div>
+
+                    </div>
+             
+            )
+        }
+    }
+    export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
