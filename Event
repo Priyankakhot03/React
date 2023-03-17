@@ -1,0 +1,38 @@
+import React,{Component} from 'react'
+ class App extends Component
+{
+    constructor(){
+        super()
+        this.state={
+            username:"upendra"
+        }
+    }
+    componentDidMount(){
+        let btn=document.querySelector('button')
+        btn.addEventListener('click',()=>{
+            this.setState({username:this.setState.username="Darshan"})
+        })
+    }
+    render(){
+        return(
+            <>
+            <div>
+                {this.state.username}
+                <button>change</button>
+            </div>
+            </>
+        )
+    }
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
